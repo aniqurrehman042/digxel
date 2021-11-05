@@ -60,8 +60,8 @@ class _HomePageState extends State<HomePage> {
                   child: Center(
                     child: Image.asset(
                       'assets/img/logo.png',
-                      height: shortestScreenSide * 0.8,
-                      width: shortestScreenSide * 0.8,
+                      height: shortestScreenSide * 0.7,
+                      width: shortestScreenSide * 0.7,
                     ),
                   ),
                 ),

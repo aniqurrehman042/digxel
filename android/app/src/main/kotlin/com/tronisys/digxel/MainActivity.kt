@@ -1,4 +1,4 @@
-package com.example.appd
+package com.tronisys.digxel
 
 import io.flutter.embedding.android.FlutterActivity
 

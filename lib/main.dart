@@ -1,10 +1,7 @@
-import 'dart:async';
-
-import 'package:appd/home_page.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+
+import 'home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: HomePage()
+      home: const HomePage(),
     );
   }
 }
